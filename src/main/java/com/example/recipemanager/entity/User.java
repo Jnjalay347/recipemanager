@@ -22,5 +22,8 @@ public class User {
     private String password;
 
     @Field
+    private String email;
+
+    @Field
     private List<String> roles;
 }
