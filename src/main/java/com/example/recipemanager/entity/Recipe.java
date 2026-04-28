@@ -28,4 +28,7 @@ public class Recipe {
 
     @Field
     private String category;
+
+    @Field
+    private String userId; // always from JWT, not in request body
 }
